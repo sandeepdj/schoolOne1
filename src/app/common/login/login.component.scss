@@ -3,6 +3,7 @@
   background-size: cover;
   height: 100%;
   width: 100%;
+}
 
   .loginForm {
     position: fixed;
@@ -10,23 +11,29 @@
     left: 50%;
     transform: translate(-50%, -50%);
     transition: transform .05s ease, padding .5s ease;
-    padding: 0px 40px 35px;
+    padding: 0px 25px 35px;
     background-color: #fff;
     font-size: 14px;
-    font-weight: 400;
-    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: subpixel-antialiased;
-    border-radius: 10px;
-    p{
-        text-align: center;
-    }
-    .logo{
-        height: 100px;
-        width: 100px;
-        margin-top: -40px;
-        border-radius: 50%;
-    }
+     border-radius: 10px;
+    width:300px;
+  }
+  .logo{
+    width: 200px;
   }
 
+    .logoImg{
+        text-align: center;
+    }
+    .half-width{
+      width: 48%;
+    }
+    .full-width{
+      width: 100%;
+    }
+.forgot-link{
+  float:right;
+}
 
+.rembx{
+  padding-bottom: 14px;
 }
